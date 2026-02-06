@@ -4,7 +4,7 @@ import { HttpClient } from "../../src/http/Client.js";
 import { NetworkError } from "../../src/errors/NetworkError.js";
 
 
-// This tells Vitest: "replace axios with a fake version"
+// replace axios with a fake version
 vi.mock("axios");
 
 describe("HttpClient", () => {

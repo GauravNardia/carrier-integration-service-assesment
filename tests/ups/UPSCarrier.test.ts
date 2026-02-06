@@ -11,10 +11,10 @@ describe("UPSCarrier", () => {
   });
 
   it("returns normalized rate quotes for valid request", async () => {
-    // 🔹 Stub auth token
+    // Stub auth token
     vi.spyOn(UPSAuth.prototype, "getToken").mockResolvedValue("fake-token");
 
-    // 🔹 Stub UPS API response
+    // Stub UPS API response
     vi.spyOn(UPSClient.prototype, "rate").mockResolvedValue({
       RateResponse: {
         RatedShipment: [
