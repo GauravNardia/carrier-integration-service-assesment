@@ -63,6 +63,15 @@ UPS_AUTH_URL=https://wwwcie.ups.com/security/v1/oauth/token
 UPS_BASE_URL=https://wwwcie.ups.com/api
 ```
 
+## Usage
+
+This project focuses on carrier integration logic and does not expose a runtime server.
+
+Functionality is demonstrated and validated through the test suite.
+
+---
+
+
 ##  Running Tests
 ```
 npm test
